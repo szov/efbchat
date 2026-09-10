@@ -1,0 +1,19 @@
+[project]
+name = "chat"
+version = "0.1.0"
+description = "Pair eFootball players into a private chat when they meet in matchmaking"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "easyocr>=1.7.2",
+    "fastapi[standard]>=0.139.0",
+    "mss>=10.2.0",
+    "numpy>=2.5.1",
+    "opencv-python>=5.0.0.93",
+    "psutil>=7.2.2",
+    "pydantic>=2.13.4",
+    "pywin32>=312",
+    "sqlalchemy>=2.0.51",
+    "websockets>=16.0",
+]
